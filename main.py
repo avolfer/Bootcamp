@@ -18,3 +18,5 @@ elif temperature > -10:
     print("ciepło ubierz się")
 else:
     print("nie git")
+
+print("elo")
