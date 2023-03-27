@@ -9,14 +9,38 @@
 #
 # print(y)
 
-temperature = -5
-happy = False
+# temperature = 15
+# happy = False
+#
+# if temperature > 10 or happy:
+#     print("git idę")
+# elif temperature > -10:
+#     print("ciepło ubierz się")
+# else:
+#     print("nie git")
 
-if temperature > 10 or happy:
-    print("git idę")
-elif temperature > -10:
-    print("ciepło ubierz się")
-else:
-    print("nie git")
 
-print("elo")
+# for i in range(1, 10, 2):
+#     print(i)
+
+# while temperature > 10:
+#     print("elo")
+#     temperature -= 1
+
+
+oceny = [4, 1, 2, 6, 4, 4, 3, 1]
+
+# for i in range(len(oceny)):
+#     print(oceny[i], end=" ")
+
+for ocena in oceny:
+    print(ocena, end=" ")
+
+for i, ocena in enumerate(oceny):
+    print(i, ocena)
+
+
+
+
+
+
