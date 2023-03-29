@@ -44,4 +44,3 @@ for i, ocena in enumerate(oceny):
 
 
 
-
