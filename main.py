@@ -28,16 +28,17 @@
 #     temperature -= 1
 
 
-oceny = [4, 1, 2, 6, 4, 4, 3, 1]
+# oceny = [4, 1, 2, 6, 4, 4, 3, 1]
 
 # for i in range(len(oceny)):
 #     print(oceny[i], end=" ")
 
-for ocena in oceny:
-    print(ocena, end=" ")
+# for ocena in oceny:
+#     print(ocena, end=" ")
+#
+# for i, ocena in enumerate(oceny):
+#     print(i, ocena)
 
-for i, ocena in enumerate(oceny):
-    print(i, ocena)
 
 
 
