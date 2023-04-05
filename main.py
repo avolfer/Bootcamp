@@ -30,16 +30,26 @@
 
 oceny = [4, 1, 2, 6, 4, 4, 3, 1]
 
-# for i in range(len(oceny)):
-#     print(oceny[i], end=" ")
-#
 # for ocena in oceny:
-#     print(ocena, end=" ")
+#     print(oceny[ocena], end=" ")
 
 # for i, ocena in enumerate(oceny):
-#     print(i, ocena)
+#     if i % 2 == 0 and ocena > 3:
+#         print(ocena, " Jest na pozycji na liście jako ", i)
+
+
+oceny.append(5) #dodaje do listy
+oceny.extend([1,1,1]) #dodaje większą liczbe rzeczy do listy
+oceny.insert(1, 6) #dodaje recz do listy w konkretnym miejscu
+oceny.pop() #Usuwa ostatni element
 
 print(oceny)
+
+
+
+
+
+
 
 
 
