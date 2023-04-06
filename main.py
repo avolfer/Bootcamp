@@ -42,6 +42,9 @@ oceny.append(5) #dodaje do listy
 oceny.extend([1,1,1]) #dodaje większą liczbe rzeczy do listy
 oceny.insert(1, 6) #dodaje recz do listy w konkretnym miejscu
 oceny.pop() #Usuwa ostatni element
+oceny.sort() #Sortuje w porządku rosnącym
+
+
 
 print(oceny)
 
